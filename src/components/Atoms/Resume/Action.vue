@@ -12,7 +12,7 @@
                 </div>
                 <div class="field">
                     <label >Monto</label>
-                    <input type="number" v-model="amount" required> 
+                    <input type="number" v-model="amount"> 
                 </div>
                 <div class="field">
                     <label >Descripción</label>
@@ -44,7 +44,7 @@
     const showModal =  ref(false)
     
     const title =  ref(" ")
-    const amount =  ref()
+    const amount =  ref(0)
     const description =  ref(" ")
     const movementType =  ref("Ingreso")
 
