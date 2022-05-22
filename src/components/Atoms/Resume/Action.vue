@@ -12,7 +12,7 @@
                 </div>
                 <div class="field">
                     <label >Monto</label>
-                    <input type="number" v-model="amount"> 
+                    <input type="number" min="0" inputmode="numeric" pattern="[0-9]*" title="Non-negative integral number" v-model="amount">
                 </div>
                 <div class="field">
                     <label >Descripción</label>
