@@ -77,7 +77,7 @@ button {
   background-color: var(--brand-blue);
   border: none;
   width: 100%;
-  padding: 24px 60px;
+  padding: 14px 45px;
   border-radius: 60px;
   box-sizing: border-box;
   cursor: pointer;

@@ -71,14 +71,14 @@ p {
   text-align: center;
 }
 h1 {
-  margin-top: 14px;
+  margin-top: 8px;
 }
 .graphic {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 48px 24px;
+  padding: 8px 24px;
   box-sizing: border-box;
 }
 .red {

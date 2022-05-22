@@ -29,7 +29,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 14px 0;
+  padding: 8px 0;
   box-sizing: border-box;
 }
 .header {
