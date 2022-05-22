@@ -6,7 +6,7 @@
 
     <template #resume>
       <Resume
-        :label="label"
+        :label="'El último mes'"
         :labelInitial="'Ahorro total'"
         :totalAmont="totalAmount"
         :amount="amount"

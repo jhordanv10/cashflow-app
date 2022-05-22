@@ -43,7 +43,7 @@ export default {
             return this.amount !== null ?  this.amount : this.totalAmont
         },
         labelVisual() {
-            return this.label !== null ?  this.label : this.labelInitial
+            return this.amount !== null ?  this.label : this.labelInitial
         },
         amountCurrency() {
             return currencyFormatter.format(this.amountVisual)
@@ -79,6 +79,7 @@ h1 {
   align-items: center;
   width: 100%;
   padding: 8px 24px;
+  padding-bottom: 0px;
   box-sizing: border-box;
 }
 .red {

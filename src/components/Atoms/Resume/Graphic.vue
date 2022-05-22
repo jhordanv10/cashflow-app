@@ -30,7 +30,6 @@
         y2="200"
       />
     </svg>
-    <p>El último mes</p>
     
   </div>
 </template>
