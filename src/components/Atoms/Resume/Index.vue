@@ -64,6 +64,7 @@ main {
   align-items: center;
   flex-direction: column;
   width: 100%;
+  margin-top: -120px;
 }
 h1,
 p {
@@ -78,8 +79,7 @@ h1 {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 8px 24px;
-  padding-bottom: 0px;
+  padding: 15px 24px;
   box-sizing: border-box;
 }
 .red {
